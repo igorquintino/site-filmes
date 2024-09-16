@@ -89,12 +89,23 @@ body{
     
 }
 
-.buttons-menu-filmes{
+.buttons-menu-primeira-tela{
     color: white;
     background-color: purple;
     border-radius: 10px;
     padding: 5px;
     width: 150px;
+}
+
+.menu-base-series{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.menu-base-series h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .carrosel-filmes-primeira-tela{
@@ -105,7 +116,7 @@ body{
 
 }
 
-.filme-carrosel{
+.img-carrosel{
     width: 100px;
     border-radius: 10px;
 }
@@ -115,3 +126,16 @@ body{
     flex-direction: column;
 }
 
+.container-menu-series{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.carrosel-series-primeira-tela{
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+}
